@@ -14,6 +14,9 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/progres-bar.css">
     <link rel="manifest" href="__manifest.json">
 </head>
 
@@ -120,16 +123,148 @@
         
 
             <form id="regForm" action="/action_page.php">
-              <h1>Register:</h1>
-              <!-- One "tab" for each step in the form: -->
-              <div class="tab">Name:
-                <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
-                <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
-              </div>
-              <div class="tab">Contact Info:
-                <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
-                <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
-              </div>
+
+                            <!-- Text Text-->
+
+              <div class="tab section mt-2">
+                <div class="card ">
+                    <!-- Title Text Question With Number -->
+                    <p class="card-text m-1">Question Explain</p>
+                  <!-- * Question No Here -->
+                  <div class="card-text m-1">Question No: <span class="badge badge-primary">2</span>
+                  </div>
+                  <!-- * Question No Here -->
+                  <div class="card-header">
+                        This is main Question
+                    </div>
+                      <!-- Title Text Question With Number -->
+
+                  
+                    <div class="card-footer btn-group" role="group">
+
+                      <ul class="listview flush transparent image-listview text">
+                        <li>
+                          <input type="radio" class="btn-check" name="btnradioGroup2" id="btnradio1b" >
+                          <label class="btn btn-outline-danger  m-1" for="btnradio1b">1</label>
+                          <label for= "btnradio1b">text to select 1</label>
+                        </li>
+                        <li>
+                          <input type="radio" class="btn-check " name="btnradioGroup2" id="btnradio2b" >
+                          <label class="btn btn-outline-danger m-1" for="btnradio2b">2 </label>
+                          <label for="btnradio2b">text to select b </label>
+                        </li>
+                        <li>
+                          <input type="radio" class="btn-check" name="btnradioGroup2" id="btnradio3b" >
+                          <label class="btn btn-outline-danger  m-1" for="btnradio3b">3</label>
+                          <label for= "btnradio3b">text to select 3</label>
+                        </li>
+                        <li>
+                          <input type="radio" class="btn-check " name="btnradioGroup2" id="btnradio4b" >
+                          <label class="btn btn-outline-danger m-1" for="btnradio4b">4 </label>
+                          <label for="btnradio4b">text to select 4 </label>
+                        </li>
+                        
+
+                      </ul>
+
+                      
+
+                    </div>
+                </div>
+            </div>
+
+              <!-- Text Text-->
+
+              <!-- Audio Text -->
+
+              <div class="tab section mt-2">
+                <div class="card ">
+                    <!-- Title Text Question With Number -->
+                    <p class="card-text m-1">Question Explain</p>
+                  <!-- * Question No Here -->
+                  <div class="card-text m-1">Question No: <span class="badge badge-primary">2</span>
+                  </div>
+                  <!-- * Question No Here -->
+                  <div class="card-header">
+                        This is main Question
+                    </div>
+                      <!-- Title Text Question With Number -->
+
+                    <div class="card-body">
+                       <!-- Media Player-->
+                  <div class="mediPlayer">
+                      <audio class="listen" preload="none" data-size="250" src="assets/sound/piano.mp3"></audio>
+                    </div>
+
+                        <!-- Media Player / -->
+                    </div>
+                    <div class="card-footer btn-group" role="group">
+
+                      <ul class="listview flush transparent image-listview text">
+                        <li>
+                          <input type="radio" class="btn-check" name="btnradioGroup3" id="btnradio13" >
+                          <label class="btn btn-outline-danger  m-1" for="btnradio13">1</label>
+                          <label for= "btnradio1b">
+ <!-- Media Player-->
+ <div class="mediPlayer">
+  <audio class="listen" preload="none" data-size="250" src="assets/sound/piano.mp3"></audio>
+</div>
+
+    <!-- Media Player / -->
+                            
+                          </label>
+                        </li>
+                        <li>
+                          <input type="radio" class="btn-check " name="btnradioGroup3" id="btnradio23" >
+                          <label class="btn btn-outline-danger m-1" for="btnradio23">2 </label>
+                          <label for="btnradio23">
+                             <!-- Media Player-->
+                  <div class="mediPlayer">
+                    <audio class="listen" preload="none" data-size="250" src="assets/sound/piano.mp3"></audio>
+                  </div>
+
+                      <!-- Media Player / -->
+                          </label>
+                        </li>
+                        <li>
+                          <input type="radio" class="btn-check" name="btnradioGroup3" id="btnradio33" >
+                          <label class="btn btn-outline-danger  m-1" for="btnradio33">3</label>
+                          <label for= "btnradio33">
+                            <!-- Media Player-->
+                  <div class="mediPlayer">
+                    <audio class="listen" preload="none" data-size="250" src="assets/sound/piano.mp3"></audio>
+                  </div>
+
+                      <!-- Media Player / --> 
+                          </label>
+                        </li>
+                        <li>
+                          <input type="radio" class="btn-check " name="btnradioGroup3" id="btnradio43" >
+                          <label class="btn btn-outline-danger m-1" for="btnradio43">4 </label>
+                          <label for="btnradio43">
+
+                             <!-- Media Player-->
+                  <div class="mediPlayer">
+                    <audio class="listen" preload="none" data-size="250" src="assets/sound/piano.mp3"></audio>
+                  </div>
+
+                      <!-- Media Player / -->
+
+                          </label>
+
+
+                        </li>
+                        
+
+                      </ul>
+
+                      
+
+                    </div>
+                </div>
+            </div>
+             <!-- Audio Text -->
+              
               <div class="tab">Birthday:
                 <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
                 <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
@@ -250,7 +385,18 @@
     <script src="assets/js/plugins/apexcharts/apexcharts.min.js"></script>
     <!-- Base Js File -->
     <script src="assets/js/base.js"></script>
+ 
+  <!-- For sound -->
+<!-- Media Player / -->
 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="assets/js/player.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.mediPlayer').mediaPlayer();
+    });
+</script>
 
 </body>
 
